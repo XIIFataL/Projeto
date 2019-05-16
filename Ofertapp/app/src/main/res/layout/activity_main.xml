@@ -9,18 +9,7 @@
     tools:layout_editor_absoluteY="25dp">
 
 
- <Button
-     android:id="@+id/button"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:width="1dp"
-     android:background="#f57c00
 
-"
-     android:onClick=""
-     android:text="Login"
-     tools:layout_editor_absoluteX="148dp"
-     tools:layout_editor_absoluteY="361dp" />
 
  <TextView
      android:id="@+id/textView"
@@ -29,6 +18,7 @@
      android:text="E-mail "
      android:textSize="20sp"
      android:textStyle="bold"
+     android:textColor="#000000"
      tools:layout_editor_absoluteX="29dp"
      tools:layout_editor_absoluteY="196dp" />
 
@@ -39,6 +29,7 @@
      android:text="Senha "
      android:textSize="20sp"
      android:textStyle="bold"
+     android:textColor="#000000"
      tools:layout_editor_absoluteX="29dp"
      tools:layout_editor_absoluteY="270dp" />
 
@@ -48,8 +39,8 @@
      android:layout_height="wrap_content"
      android:ems="10"
      android:inputType="textEmailAddress"
-     android:text="guilherme_monteverde@hotmail.com"
-     android:textSize="10"
+     android:text=""
+     android:textSize="10sp"
      tools:layout_editor_absoluteX="104dp"
      tools:layout_editor_absoluteY="196dp" />
 
@@ -62,5 +53,15 @@
      android:inputType="textEmailAddress"
      tools:layout_editor_absoluteX="104dp"
      tools:layout_editor_absoluteY="260dp" />
+
+ <Button
+     android:id="@+id/button"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Login "
+     android:textColor="#000000"
+     android:background="#f57c00"
+     tools:layout_editor_absoluteX="147dp"
+     tools:layout_editor_absoluteY="343dp" />
 
 </android.support.constraint.ConstraintLayout>
